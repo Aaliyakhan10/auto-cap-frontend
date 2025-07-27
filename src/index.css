@@ -1,0 +1,66 @@
+@import "tailwindcss";
+/* === AutoCap Utility Colors === */
+
+:root {
+  --color-primary: #B9375D;     /* Rose */
+  --color-secondary: #D25D5D;   /* Coral Pink */
+  --color-light: #E7D3D3;       /* Blush */
+  --color-bg: #EEEEEE;          /* Snow Gray */
+  --color-text: #222222;        /* Standard dark text */
+  --color-muted: #666666;       /* Optional muted text */
+}
+
+/* === Backgrounds === */
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+.bg-light {
+  background-color: var(--color-light);
+}
+.bg-bg {
+  background-color: var(--color-bg);
+}
+
+/* === Text === */
+.text-primary {
+  color: var(--color-primary);
+}
+.text-secondary {
+  color: var(--color-secondary);
+}
+.text-dark {
+  color: var(--color-text);
+}
+.text-muted {
+  color: var(--color-muted);
+}
+
+/* === Buttons === */
+.btn {
+  background-color: var(--color-primary);
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.text-style {
+  
+  color:var(--color-primary);
+  padding: 0.75rem 1.5rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.text-style:hover {
+    background-color: var(--color-primary);
+   color: #ffffff;
+}
