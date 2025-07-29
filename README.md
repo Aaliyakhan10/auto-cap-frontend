@@ -1,12 +1,74 @@
-# React + Vite
+# AutoCap Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AutoCap is an AI-powered image captioning application. Users can upload an image and receive **two AI-generated captions**: one **short** and one **long**. Captions can be easily copied using provided buttons. This repository contains the **frontend** of the application, built using **React**, integrated with a **Spring Boot** backend and **Supabase** for storage and authentication.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* 📤 Upload any image
+* 🤖 Receive two AI-generated captions:
 
-## Expanding the ESLint configuration
+  * Short Caption
+  * Long Caption
+* 📋 One-click **Copy** buttons for both captions
+* ⚙️ Built with:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+  * React (Frontend)
+  * Supabase (Storage & Auth)
+  * Spring Boot (Java Backend)
+
+## 📸 Demo
+
+![AutoCap Live Link](https://autocapai.netlify.app/)
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+* Node.js (v14 or later)
+* npm or yarn
+* Supabase project
+* Running Spring Boot backend (connected via API)
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/Aaliyakhan10/AutoCap_frontend.git
+cd AutoCap_frontend
+```
+
+### Install Dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### Environment Variables
+
+Create a `.env` file in the root directory and add your Supabase credentials:
+
+```env
+VITE_SUPABASE_URL=your_supabase_url
+VITE_SUPABASE_API_KEY=your_supabase_anon_key
+VITE_BACKEND_URL=http://localhost:8080  # Or your deployed backend
+```
+
+### Run the App
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+
+## 🔗 Backend Repository
+
+This frontend is connected to a Spring Boot backend for image processing and caption generation. (Add link here if public)
+
+## 📄 License
+
+MIT
+
