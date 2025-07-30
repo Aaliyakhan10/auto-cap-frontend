@@ -65,7 +65,7 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 
 ## 🔗 Backend Repository
 
-This frontend is connected to a Spring Boot backend for image processing and caption generation. (Add link here if public)
+This frontend is connected to a Spring Boot backend for image processing and caption generation. [link](https://github.com/Aaliyakhan10/AutoCap_Backend)
 
 ## 📄 License
 
