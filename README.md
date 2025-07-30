@@ -17,8 +17,7 @@ AutoCap is an AI-powered image captioning application. Users can upload an image
   * Spring Boot (Java Backend)
 
 ## 📸 Demo
-
-![AutoCap Live Link](https://autocapai.netlify.app/)
+(https://autocapai.netlify.app/)
 
 ## 🚀 Getting Started
 
