@@ -122,7 +122,7 @@ const [cap, setCap] = useState(initialCap);
             <img
               src={imageUrl}
               alt="Uploaded"
-              className="w-64 h-64 object-cover rounded shadow-md"
+              className="object-cover rounded shadow-md"
             />
           )}
 

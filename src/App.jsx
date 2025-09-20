@@ -4,6 +4,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import GenCap from './components/GenCap'
 import guidevid from './assets/guide.mp4'
+import RevenueCPMScript from './components/RevenueCPMScript'
 
 
 const App = () => {
@@ -31,6 +32,7 @@ const App = () => {
     <div id="generate" className="pt-20 -mt-20">
   <GenCap />
 </div>
+<RevenueCPMScript />
 <div id="guide" className="flex flex-col items-center justify-center min-h-screen w-full bg-bg p-6">
   <h2 className="text-3xl font-bold text-primary mb-4 text-center">How to Use AutoCap</h2>
   <p className="text-secondary text-center max-w-2xl mb-8">
